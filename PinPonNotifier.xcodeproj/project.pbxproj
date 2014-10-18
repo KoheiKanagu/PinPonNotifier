@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55A4E98719F3180100F3E75F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A4E98619F3180100F3E75F /* main.m */; };
+		55A4E98C19F3180100F3E75F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A4E98B19F3180100F3E75F /* Images.xcassets */; };
+		55A4E98F19F3180100F3E75F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55A4E98D19F3180100F3E75F /* MainMenu.xib */; };
+		55A4E9A719F3186E00F3E75F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A4E9A619F3186E00F3E75F /* AppDelegate.m */; };
+		55A4E9AA19F3193800F3E75F /* PinPonPublisher.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A4E9A919F3193800F3E75F /* PinPonPublisher.m */; };
+		55A4E9AD19F3195E00F3E75F /* PinPonSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A4E9AC19F3195E00F3E75F /* PinPonSearcher.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55A4E98119F3180100F3E75F /* PinPonNotifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinPonNotifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A4E98519F3180100F3E75F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55A4E98619F3180100F3E75F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55A4E98B19F3180100F3E75F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		55A4E98E19F3180100F3E75F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		55A4E9A419F3181300F3E75F /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		55A4E9A519F3186E00F3E75F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55A4E9A619F3186E00F3E75F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55A4E9A819F3193800F3E75F /* PinPonPublisher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinPonPublisher.h; sourceTree = "<group>"; };
+		55A4E9A919F3193800F3E75F /* PinPonPublisher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinPonPublisher.m; sourceTree = "<group>"; };
+		55A4E9AB19F3195E00F3E75F /* PinPonSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinPonSearcher.h; sourceTree = "<group>"; };
+		55A4E9AC19F3195E00F3E75F /* PinPonSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinPonSearcher.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55A4E97E19F3180100F3E75F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55A4E97819F3180100F3E75F = {
+			isa = PBXGroup;
+			children = (
+				55A4E98319F3180100F3E75F /* PinPonNotifier */,
+				55A4E98219F3180100F3E75F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55A4E98219F3180100F3E75F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55A4E98119F3180100F3E75F /* PinPonNotifier.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55A4E98319F3180100F3E75F /* PinPonNotifier */ = {
+			isa = PBXGroup;
+			children = (
+				55A4E9A519F3186E00F3E75F /* AppDelegate.h */,
+				55A4E9A619F3186E00F3E75F /* AppDelegate.m */,
+				55A4E9A819F3193800F3E75F /* PinPonPublisher.h */,
+				55A4E9A919F3193800F3E75F /* PinPonPublisher.m */,
+				55A4E9AB19F3195E00F3E75F /* PinPonSearcher.h */,
+				55A4E9AC19F3195E00F3E75F /* PinPonSearcher.m */,
+				55A4E98B19F3180100F3E75F /* Images.xcassets */,
+				55A4E98D19F3180100F3E75F /* MainMenu.xib */,
+				55A4E98419F3180100F3E75F /* Supporting Files */,
+			);
+			path = PinPonNotifier;
+			sourceTree = "<group>";
+		};
+		55A4E98419F3180100F3E75F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55A4E98519F3180100F3E75F /* Info.plist */,
+				55A4E98619F3180100F3E75F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55A4E98019F3180100F3E75F /* PinPonNotifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55A4E99E19F3180200F3E75F /* Build configuration list for PBXNativeTarget "PinPonNotifier" */;
+			buildPhases = (
+				55A4E97D19F3180100F3E75F /* Sources */,
+				55A4E97E19F3180100F3E75F /* Frameworks */,
+				55A4E97F19F3180100F3E75F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinPonNotifier;
+			productName = PinPonNotifier;
+			productReference = 55A4E98119F3180100F3E75F /* PinPonNotifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55A4E97919F3180100F3E75F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = KoheiKanagu;
+				TargetAttributes = {
+					55A4E98019F3180100F3E75F = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 55A4E97C19F3180100F3E75F /* Build configuration list for PBXProject "PinPonNotifier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55A4E97819F3180100F3E75F;
+			productRefGroup = 55A4E98219F3180100F3E75F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55A4E98019F3180100F3E75F /* PinPonNotifier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55A4E97F19F3180100F3E75F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A4E98C19F3180100F3E75F /* Images.xcassets in Resources */,
+				55A4E98F19F3180100F3E75F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55A4E97D19F3180100F3E75F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A4E9AD19F3195E00F3E75F /* PinPonSearcher.m in Sources */,
+				55A4E9AA19F3193800F3E75F /* PinPonPublisher.m in Sources */,
+				55A4E9A719F3186E00F3E75F /* AppDelegate.m in Sources */,
+				55A4E98719F3180100F3E75F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55A4E98D19F3180100F3E75F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55A4E98E19F3180100F3E75F /* Base */,
+				55A4E9A419F3181300F3E75F /* ja */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55A4E99C19F3180200F3E75F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55A4E99D19F3180200F3E75F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55A4E99F19F3180200F3E75F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PinPonNotifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55A4E9A019F3180200F3E75F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PinPonNotifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55A4E97C19F3180100F3E75F /* Build configuration list for PBXProject "PinPonNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A4E99C19F3180200F3E75F /* Debug */,
+				55A4E99D19F3180200F3E75F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55A4E99E19F3180200F3E75F /* Build configuration list for PBXNativeTarget "PinPonNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A4E99F19F3180200F3E75F /* Debug */,
+				55A4E9A019F3180200F3E75F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55A4E97919F3180100F3E75F /* Project object */;
+}
